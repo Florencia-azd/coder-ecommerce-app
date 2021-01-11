@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    align-items: center;
+	padding: 20px 0;
+	justify-content: space-between;
+}
+
+.navbar .logo {
+	width: 100px;
+}
+
+.navbar .logo img {
+	width: 100%;
+}
+
+.navbar .menu {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+.navbar .menu li {
+	padding: 0 30px;
+}
+
+.navbar .menu li a {
+	color: aliceblue;
+	text-decoration: none;
+}
+
+.navbar .menu li a:hover {
+	color: rgb(119, 187, 247);
+}
