@@ -1,5 +1,10 @@
 .navbar {
-    display: flex;
+	background-color: #282c34;
+  	color: white;
+}
+
+.navbar .container {
+	display: flex;
     align-items: center;
 	padding: 20px 0;
 	justify-content: space-between;
